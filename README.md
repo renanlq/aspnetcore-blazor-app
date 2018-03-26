@@ -1,5 +1,5 @@
 # blazor
-<h1>My first Blazor App</h1>
+<h2>My first Blazor App</h2>
 <b>Demo</b>: Listagem de departamentos.
 <h2>Por onde começar</h2>
 <p>
@@ -21,5 +21,11 @@
   <ol>
     <li><a href="https://github.com/aspnet/Blazor">ASP.NET Blazor</a> (Github)</li>
   </ol>
+</p>
+<h2>Download</h2>
+<p>
+  <ul>
+    <li>Arquivo: <a href="https://github.com/renanlq/blazor/blob/master/WebBlazor.zip">WebBlazor.zip</a></li>
+  </ul>
 </p>
 <br />
