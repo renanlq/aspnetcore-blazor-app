@@ -13,7 +13,7 @@
 <p>
   <h3>Build:</h3>
   <ul>
-    <li><a href="https://nodejs.org/">Node.js (>8.3)</a></li>
+    <li><a href="https://nodejs.org/">Node.js</a> (>8.3)</li>
   </ul>
 </p>
 <p>
