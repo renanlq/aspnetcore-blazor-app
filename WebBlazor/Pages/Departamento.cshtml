@@ -1,0 +1,50 @@
+﻿@page "/departamento"
+@inject HttpClient Http
+
+<h1>Departamentos</h1>
+<p>Lista de departamentos.</p>
+@if (departamentos == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class='table'>
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var departamento in departamentos)
+            {
+                <tr>
+                    <td>@departamento.Area</td>
+                    <td>@departamento.Nome</td>
+                    <td>@departamento.Telefone</td>
+                    <td>@departamento.Descricao</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@functions {
+    Departamentos[] departamentos;
+
+    protected override async Task OnInitAsync()
+    {
+        departamentos = await Http.GetJsonAsync<Departamentos[]>("/sample-data/departamentos.json");
+    }
+
+    class Departamentos
+    {
+        public string Area { get; set; }
+        public string Nome { get; set; }
+        public string Telefone { get; set; }
+        public string Descricao { get; set; }
+    }
+}
