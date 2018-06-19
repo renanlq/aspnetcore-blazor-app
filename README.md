@@ -22,10 +22,4 @@
     <li><a href="https://github.com/aspnet/Blazor">ASP.NET Blazor</a> (Github)</li>
   </ol>
 </p>
-<h2>Download</h2>
-<p>
-  <ul>
-    <li>Arquivo: <a href="https://github.com/renanlq/blazor/blob/master/WebBlazor.zip">WebBlazor.zip</a></li>
-  </ul>
-</p>
 <br />
