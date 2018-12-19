@@ -1,4 +1,4 @@
-# blazor
+# blazor (pt-br)
 <h2>My first Blazor App</h2>
 <b>Demo</b>: Listagem de departamentos.
 <h2>Por onde começar</h2>
